@@ -1,0 +1,11 @@
+{
+	"Type": "Notification",
+	"MessageId": "2aea0724-d253-5894-bfa8-591558b59fdf",
+	"TopicArn": "arn:aws:sns:us-east-1:241116592199:Radware_CWP_topic-2341-qa",
+	"Message": "{\"accountIds\":[\"c58e1fb6-23de-409f-b1ac-ad48a764d67f\"],\"accountVendor\":\"AZURE\",\"objectType\":\"Alert\",\"objectPortalURL\":\"null/#/data-center/alert-details/444219214689\",\"id\":\"444219214689\",\"title\":\"Communication to crypto-mining IP\",\"score\":\"7\",\"createdDate\":1706526885175,\"updatedDate\":1706526885175,\"vendor\":\"Radware\",\"apiVersion\":\"1.00\",\"status\":\"NEW\",\"activities\":[{\"name\":\"machineCryptoCommunication\",\"activityId\":\"444219214689\",\"title\":\"Communication to crypto-mining IP\",\"detectionTime\":1706526865050,\"attackTactic\":\"IMPACT\",\"attackTechnique\":\"RESOURCE HIJACKING\",\"attackSubTechnique\":\"\",\"source\":\"VPC Flow logs\",\"invocationSource\":\"/subscriptions/c58e1fb6-23de-409f-b1ac-ad48a764d67f/resourceGroups/skh-az-sandbox-logs-rg/providers/Microsoft.Compute/virtualMachines/sean-test\",\"identity\":\"/subscriptions/c58e1fb6-23de-409f-b1ac-ad48a764d67f/resourceGroups/skh-az-sandbox-logs-rg/providers/Microsoft.Compute/virtualMachines/sean-test\",\"affectedResources\":{\"targetIp\":\"199.247.27.41\"}}],\"alertAttack\":false,\"duration\":0,\"statusHistory\":[{\"lastStatus\":\"PENDING\",\"currStatus\":\"NEW\",\"changeDate\":{\"nano\":244000000,\"epochSecond\":1706526886},\"changeBy\":\"ALERT_NOTIFICATOR\"}],\"attackSteps\":{\"IMPACT\":1}}",
+	"Timestamp": "2024-01-29T11:14:46.714Z",
+	"SignatureVersion": "1",
+	"Signature": "DlhmxLx//EFmBPtoP/bFQ0JPaCRR2UY+OCorgsbK+soOmRx1Cb3Ald1gEV79KjVX9gLVT5HdOsbEterzR1cxwSdCsLwyeYafp2o+BOCii1Jwrh4cOge/6kbZY4Rya5g/5R6Qqp4sf1gz2A0K3LVfrnq29cbM7kYLZj7ylpFbF4TyajF0WT7mg8JuFQt/8/158UtHJcYeMbF/s2qSz40uTlWzMVE7wzPEa4qQ4lhUyeTftgcKILSDYOOaLHr7Wuqx+htWzbur3sfUDLdoVVBDQPj+scHbRHshcmkm/X3sIJdMfI+Ey0KfUoWg8eLsVUrKsLydjHZb2FxBLJUNCDNojg==",
+	"SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-60eadc530605d63b8e62a523676ef735.pem",
+	"UnsubscribeURL": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:241116592199:Radware_CWP_topic-2341-qa:6ad38065-766e-47ec-960a-5f08dffb08dc"
+}
